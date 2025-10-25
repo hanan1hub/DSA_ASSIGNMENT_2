@@ -44,7 +44,7 @@ This network monitoring tool captures raw Ethernet packets from a specified netw
 
 ```
 ┌─────────────┐      ┌──────────────┐      ┌─────────────────┐      ┌─────────────┐
-│   Capture   │─────▶│  Dissector   │─────▶│ Filter/Replay   │─────▶│   Display   │
+│   Capture   │────▶│  Dissector   │─────▶│ Filter/Replay   │────▶│   Display   │
 │   Thread    │      │    Thread    │      │     Thread      │      │   Thread    │
 └─────────────┘      └──────────────┘      └─────────────────┘      └─────────────┘
       │                     │                       │                       │
