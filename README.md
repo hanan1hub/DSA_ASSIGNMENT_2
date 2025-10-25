@@ -42,7 +42,7 @@ This network monitoring tool captures raw Ethernet packets from a specified netw
 
 ## 🏗️ Architecture
 
-
+```
 ┌─────────────┐      ┌──────────────┐      ┌─────────────────┐      ┌─────────────┐
 │   Capture   │─────▶│  Dissector   │─────▶│ Filter/Replay   │─────▶│   Display   │
 │   Thread    │      │    Thread    │      │     Thread      │      │   Thread    │
@@ -53,6 +53,7 @@ This network monitoring tool captures raw Ethernet packets from a specified netw
                                                     │
                                                     ▼
                                               backupQueue
+```
 
 ### Thread Pipeline
 
@@ -248,8 +249,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👤 Author
 
 **Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- Email: your.email@example.com
+- GitHub: [@Hanan Majeed](https://github.com/hanan1hub)
+- Email: hmajeed.bsds24seecs@seecs.edu.pk
 
 ## 🙏 Acknowledgments
 
